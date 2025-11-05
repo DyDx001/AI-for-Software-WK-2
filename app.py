@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pdn
+import pandas as pd
 import numpy as np
 import joblib
 import requests
