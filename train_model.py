@@ -42,7 +42,7 @@ print("Model training complete.")
 # 4. Evaluate the Model (Optional, but good practice)
 print("Evaluating model performance...")
 y_pred = model.predict(X_test)
-rmse = mean_squared_error(y_test, y_pred, squared=False)
+rmse = mean_squared_error(y_test, y_pred)**0.5
 r2 = r2_score(y_test, y_pred)
 oob = model.oob_score_
 
